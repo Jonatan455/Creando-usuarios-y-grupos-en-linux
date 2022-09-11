@@ -1,0 +1,17 @@
+-----Creando grupo llamado casa-------
+
+Groupadd casa
+
+---- Dentro del grupo casa crear 2 usuarios, uno con el nombre de su mama o papa y el otro seria su nombre----
+
+Useradd Francisco
+
+Useradd Jonatan
+
+Adduser Francisco casa
+
+AdduserJonatan casa
+
+----Cambiar el nombre del grupo casa a familia-----
+
+Groupmod -g 1001 -n  familia casa
